@@ -3,3 +3,10 @@
 
   trello.addCard('Clean car', 'Wax on, wax off', myListId,
       function (error, trelloCard) {
+      if (error) {
+              console.log('Could not add card:', error);
+          }
+          else {
+              console.log('Added card:', trelloCard);
+          }
+      });
