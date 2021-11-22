@@ -1,0 +1,5 @@
+  var Trello = require("trello");
+  var trello = new Trello("MY APPLICATION KEY", "MY USER TOKEN");
+
+  trello.addCard('Clean car', 'Wax on, wax off', myListId,
+      function (error, trelloCard) {
