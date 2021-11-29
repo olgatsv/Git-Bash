@@ -11,3 +11,8 @@
           }
       });
 
+<<<<<<< HEAD
+=======
+Add line
+1234
+>>>>>>> second_branch
